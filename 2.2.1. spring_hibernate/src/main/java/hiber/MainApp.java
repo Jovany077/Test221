@@ -37,8 +37,7 @@ public class MainApp {
       userService.add(user3);
       userService.add(user4);
 
-      userService.getUserByCar("BMW");
-
+      userService.getUserByCar("BMW", 5);
 
       List<User> users = userService.listUsers();
       for (User user : users) {
